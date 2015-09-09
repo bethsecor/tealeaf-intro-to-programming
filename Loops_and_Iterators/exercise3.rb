@@ -5,9 +5,8 @@
 # Exercise 3
 firefly_chars = ["Mal","Kaylee","Zoe","Wash","Inara","Book","Jane","Simon","River"]
 
-firefly_chars.each_with_index { |name, index|
-puts "#{index} #{name}"
-} # documentation had curly braces instead of do/end
+firefly_chars.each_with_index { |name, index| puts "#{index} #{name}" } 
+# documentation had curly braces instead of do/end
 # technically I am printing out the actual index
 
 firefly_chars.each_with_index do |name, index|
